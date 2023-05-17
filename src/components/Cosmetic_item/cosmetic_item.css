@@ -1,0 +1,12 @@
+.cosmetic{
+
+    border: 2px solid red;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.item{
+    display: flex;   
+}

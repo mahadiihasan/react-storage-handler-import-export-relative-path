@@ -6,7 +6,7 @@ const Shoes = () => {
     return (
         <div>
             <h2>This is Shoes component</h2>
-            <p>Multiply from Shoes Component: {total}</p>
+            {/* <p>Multiply from Shoes Component: {total}</p> */}
         </div>
     );
 };
