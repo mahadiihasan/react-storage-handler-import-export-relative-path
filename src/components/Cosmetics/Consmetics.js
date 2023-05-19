@@ -1,5 +1,5 @@
 import React from 'react';
-import { add, multiply } from '../../utilities/calculate';
+import { add, getTotal, multiply } from '../../utilities/calculate';
 import Cosmetic_item from '../Cosmetic_item/Cosmetic_item';
 
 const Consmetics = () => {
@@ -16,9 +16,14 @@ const Consmetics = () => {
         {id: 4, name: 'kajol', price: 500},
         {id: 5, name: 'olive oil', price: 1230},
     ]
+
+    //get Total price of the shop
+    const total = getTotal(cosmetics);
+
     return (
         <div>
-            <h2>This is cosmetics component</h2>
+            <h1>Welcome to my Cosmetics Shop</h1>
+            <p>Price : {total}</p>
             {/* <p>Price : {total}</p>
             <p>Multiply: {multi}</p> */}
             {
